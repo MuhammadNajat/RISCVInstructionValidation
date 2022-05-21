@@ -17,8 +17,8 @@ vector <string> Tokenizer::tokenize(const string & instruction) {
     int instructionLength = instruction.length();
     for(int i=0; i<instructionLength; i++) {
         string token = "";
-        if(isalnum(instruction[i])) {
-            while(i < instructionLength && isalnum(instruction[i])) {
+        if(instruction[i] != ' ' && instruction[i] != ',') {
+            while(i < instructionLength && instruction[i] != ' ' && instruction[i] != ',') {
                 token += instruction[i];
                 i++;
             }

@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1652904600 source:d:\mycppfiles\riscvinstructionvalidator\main.cpp
+	<string>
+	<vector>
+	<unordered_map>
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	"OpCodeManager.h"
+	"InstructionPreprocessor.h"
+	"TokenizedInstructionValidator.h"
+	"Tokenizer.h"
+
+1652821803 d:\mycppfiles\riscvinstructionvalidator\include\opcodemanager.h
+	<unordered_map>
+	<string>
+
+1652821765 source:d:\mycppfiles\riscvinstructionvalidator\src\opcodemanager.cpp
+	<iostream>
+	"OpCodeManager.h"
+
+1652818391 source:d:\mycppfiles\riscvinstructionvalidator\src\instructionpreprocessor.cpp
+	<string>
+	"InstructionPreprocessor.h"
+
+1652821803 d:\mycppfiles\riscvinstructionvalidator\include\instructionpreprocessor.h
+	<string>
+
+1652821765 source:d:\mycppfiles\riscvinstructionvalidator\src\tokenizedinstruction.cpp
+	<vector>
+	<string>
+	"TokenizedInstruction.h"
+
+1652821803 d:\mycppfiles\riscvinstructionvalidator\include\tokenizedinstruction.h
+	<vector>
+	<string>
+
+1652821803 source:d:\mycppfiles\riscvinstructionvalidator\src\tokenizer.cpp
+	<vector>
+	<string>
+	"Tokenizer.h"
+
+1652821803 d:\mycppfiles\riscvinstructionvalidator\include\tokenizer.h
+	<vector>
+	<string>
+	"TokenizedInstruction.h"
+
+1653121164 source:d:\mycppfiles\riscvinstructionvalidator\src\tokenizedinstructionvalidator.cpp
+	"TokenizedInstructionValidator.h"
+
+1652905944 d:\mycppfiles\riscvinstructionvalidator\include\tokenizedinstructionvalidator.h
+	<vector>
+	<string>
+	<unordered_map>
+	"TokenizedInstruction.h"
+
+1652904600 source:c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\main.cpp
+	<string>
+	<vector>
+	<unordered_map>
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	"OpCodeManager.h"
+	"InstructionPreprocessor.h"
+	"TokenizedInstructionValidator.h"
+	"Tokenizer.h"
+
+1652821803 c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\include\opcodemanager.h
+	<unordered_map>
+	<string>
+
+1652821803 c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\include\instructionpreprocessor.h
+	<string>
+
+1652905944 c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\include\tokenizedinstructionvalidator.h
+	<vector>
+	<string>
+	<unordered_map>
+	"TokenizedInstruction.h"
+
+1652821803 c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\include\tokenizedinstruction.h
+	<vector>
+	<string>
+
+1652821803 c:\users\user\onedrive\desktop\dsi_assignment\riscvinstructionvalidator\include\tokenizer.h
+	<vector>
+	<string>
+	"TokenizedInstruction.h"
+

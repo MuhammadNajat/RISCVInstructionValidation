@@ -8,7 +8,7 @@ TokenizedInstructionValidator::~TokenizedInstructionValidator() {
     //dtor
 }
 
-int TokenizedInstructionValidator::getOperandCount(vector <string> operandsWithSeperators) {
+int TokenizedInstructionValidator::getOperandCount(const vector <string> & operandsWithSeperators) {
     int operandCount = 0;
     for(int i=0; i<(int) operandsWithSeperators.size(); i++) {
         if(operandsWithSeperators[i] != ",") {
@@ -19,7 +19,7 @@ int TokenizedInstructionValidator::getOperandCount(vector <string> operandsWithS
     return operandCount;
 }
 
-bool TokenizedInstructionValidator::isOperandValid(string operand) {
+bool TokenizedInstructionValidator::isOperandValid(const string & operand) {
     bool isValid = true;
     int operandLength = operand.length();
     int digitCount = 0;

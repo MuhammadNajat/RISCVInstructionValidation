@@ -27,4 +27,4 @@ string InstructionPreprocessor::getCommentRemoved(const string & instruction) {
 string InstructionPreprocessor::preprocessInstruction(const string & instruction) {
     string processed = getCommentRemoved(instruction);
     return processed;
-};
+}

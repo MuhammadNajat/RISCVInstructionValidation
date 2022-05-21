@@ -9,7 +9,7 @@ using namespace std;
 
 class TokenizedInstruction {
     public:
-        TokenizedInstruction(string opCode, vector <string> operandsWithSeperators);
+        TokenizedInstruction(const string & opCode, const vector <string> & operandsWithSeperators);
         virtual ~TokenizedInstruction();
 
         string getOpCode() {

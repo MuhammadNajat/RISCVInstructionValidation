@@ -14,9 +14,9 @@ class TokenizedInstructionValidator {
         TokenizedInstructionValidator();
         virtual ~TokenizedInstructionValidator();
 
-        int getOperandCount(vector <string> operandsWithSeperators);
+        int getOperandCount(const vector <string> & operandsWithSeperators);
         bool isTokenizedInstructionValid(unordered_map <string, int> opCodeToOperandNumber, TokenizedInstruction tokenizedInstruction);
-        bool isOperandValid(string operand);
+        bool isOperandValid(const string & operand);
 
     protected:
     private:

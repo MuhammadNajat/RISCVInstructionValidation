@@ -4,7 +4,7 @@
 
 using namespace std;
 
-TokenizedInstruction::TokenizedInstruction(string opCode, vector <string> operandsWithSeperators) {
+TokenizedInstruction::TokenizedInstruction(const string & opCode, const vector <string> & operandsWithSeperators) {
     //ctor
     this->opCode = opCode;
     this->operandsWithSeperators = operandsWithSeperators;
